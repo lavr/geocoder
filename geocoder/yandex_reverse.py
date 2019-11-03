@@ -59,6 +59,7 @@ class YandexReverse(YandexQuery):
             'kind': kwargs.get('kind', ''),
             'format': 'json',
             'results': kwargs.get('maxRows', 1),
+            'apikey': kwargs.get('apikey', ''),
         }
 
 
